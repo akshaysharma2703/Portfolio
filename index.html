@@ -109,6 +109,10 @@
   transform: scale(1.1);
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
 
 </style>
 
@@ -139,13 +143,11 @@
 		  <div class="home-slider  owl-carousel">
 	       <div class="slider-item ">
 	      	<div class="overlay"></div>
-	         <div class="container">
+	         <div class="col-12 text-center">
 	          <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
-	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/bg_1.png);">
-	          	 <div class="overlay"></div>
-	          	</div>
-		          <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-		          	<div class="text">
+	          	
+		          <div class="col-md-12 d-flex align-items-center justify-content-center text-center ftco-animate" style="min-height:140vh;">
+					<div class="text">
 		          		<span class="subheading">Hello!</span>
 			            <h1 class="mb-4 mt-3">I'm <span>Akshay Sharma</span></h1>
 
@@ -160,6 +162,8 @@
 						// Create an array of typing text
 						const typingTexts = [
 						'Analytics Enthusiast  ',
+						'Data Science Enthusiast  ',
+						'Product Manager Enthusiast  ',
 						];
 
 						// Create a function to display the typing animation for a given text
@@ -216,8 +220,7 @@
 									<div class="col-sm-6 col-md-7">
 									  <div class="about-info">
 										<p><span class="title-s">Name: </span> <span>Akshay Sharma</span></p>
-										<p><span class="title-s">Job Role: </span> <span>Data Analyst</span></p>
-										<p><span class="title-s">Address: </span> <span>Delhi, India</span></p>
+										<p><span class="title-s">Address: </span> <span>Somewhere in India</span></p>
 									  </div>
 									</div>
 								  </div>
@@ -270,16 +273,8 @@
 									I enjoy working with data to uncover patterns and support decisions that create meaningful impact.
 									I have hands-on experience with Python (data cleaning and EDA), SQL, Excel, and Power BI, and I am building a solid foundation as a Data / Business Analyst, with a long-term goal of transitioning into Product Management, where data informs every decision.</p>
 								<ul class="about-info mt-4 px-md-0 px-2">
-									<li class="d-flex"><span>Profile:</span> <span> Aspiring Analytics Professional | Data & Business Analysis | Product-Driven Insights </span></li>
-									<li class="d-flex">
-										<span>Domain:</span>
-										<span>
-										  Data Analytics | Business Analysis | Product Analytics | 
-										  Data Cleaning | Exploratory Data Analysis (EDA) | 
-										  SQL & Database Management | Dashboarding & Data Visualization | 
-										  Machine Learning
-										</span>
-									  </li>
+									<li class="d-flex"><span>Profile:</span> <span> Aspiring Analytics Professional | Data & Business Analysis | Product-Driven Insights | Data Science </span></li>
+									
 									  
 									  <li class="d-flex">
 										<span>Education:</span>
@@ -469,40 +464,40 @@
           <div class="col-md-7 heading-section text-center ftco-animate">
             <h1 class="big big-2">Projects</h1>
             <h2 class="mb-4">Projects</h2>
-            <p>Below are the sample Data Analytics projects on SQL, Python, Power BI , Excel.</p>
+            <p>Hands-on projects showcasing data cleaning, analysis, visualization, and machine learning.</p>
           </div>
         </div>
         <div class="row d-flex">
           <div class="col-md-4 d-flex ftco-animate">
           	<div class="blog-entry justify-content-end">
-              <a href="https://github.com/rishabhnmishra/SQL_Music_Store_Analysis/blob/main/Music_Store_Query.sql" class="block-20 zoom-effect" style="background-image: url('images/proj_1.jpg');">
+              <a href="https://github.com/akshaysharma2703/Credit-Card-Financial-Dashboard.git" class="block-20 zoom-effect" style="background-image: url('images/proj_1.jpg');">
               </a>
               <div class="text mt-3 float-right d-block">
 
-                <h3 class="heading"><a href="https://github.com/rishabhnmishra/SQL_Music_Store_Analysis/blob/main/Music_Store_Query.sql">Digital Music Store Data Analysis using SQL</a></h3>
-                <p>Analyzed music store data using advanced SQL queires to identify gaps and increase the business growth.</p>
+                <h3 class="heading"><a href="https://github.com/akshaysharma2703/Credit-Card-Financial-Dashboard.git">Credit-Card-Financial-Dashboard</a></h3>
+                <p>To develop a comprehensive credit card weekly dashboard that provides real-time insights into key performance metrics and trends, enabling stakeholders to monitor and analyze credit card operations effectively.</p>
               </div>
             </div>
           </div>
           <div class="col-md-4 d-flex ftco-animate">
           	<div class="blog-entry justify-content-end">
-              <a href="https://github.com/rishabhnmishra/Python_Diwali_Sales_Analysis/blob/main/Diwali_Sales_Analysis.ipynb" class="block-20 zoom-effect" style="background-image: url('images/proj_2.jpg');">
+              <a href="https://github.com/akshaysharma2703/Uber-Ride-Analysis.git" class="block-20 zoom-effect" style="background-image: url('images/proj_2.jpg');">
               </a>
               <div class="text mt-3 float-right d-block">
 
-                <h3 class="heading"><a href="https://github.com/rishabhnmishra/Python_Diwali_Sales_Analysis/blob/main/Diwali_Sales_Analysis.ipynb">Data Analysis using Python Project for Beginners</a></h3>
-                <p>Performed exploratory data analysis on diwali sales data using Python to improve the customer experience.</p>
+                <h3 class="heading"><a href="https://github.com/akshaysharma2703/Uber-Ride-Analysis.git">Uber Ride Analysis</a></h3>
+                <p>A Python-based project to analyze Uber ride data, uncover patterns, and visualize insights.</p>
               </div>
             </div>
           </div>
           <div class="col-md-4 d-flex ftco-animate">
           	<div class="blog-entry">
-              <a href="https://github.com/rishabhnmishra/Madhav_Store_Analysis_PowerBI/blob/main/Madhav%20Store%20dashboard.jpg" class="block-20 zoom-effect" style="background-image: url('images/proj_3.jpg');">
+              <a href="https://github.com/akshaysharma2703/INVENTORY-MANAGEMENT-SYSTEM-.git" class="block-20 zoom-effect" style="background-image: url('images/proj_3.jpg');">
               </a>
               <div class="text mt-3 float-right d-block">
 
-                <h3 class="heading"><a href="https://github.com/rishabhnmishra/Madhav_Store_Analysis_PowerBI/blob/main/Madhav%20Store%20dashboard.jpg">Power BI Sales dashboard Project for Beginners</a></h3>
-                <p>Designed a power bi dashboard for Madhav Store to track and analyze the online sales data acorss India.</p>
+                <h3 class="heading"><a href="https://github.com/akshaysharma2703/INVENTORY-MANAGEMENT-SYSTEM-.git">Inventory Management System.</a></h3>
+                <p>A Python-based Inventory Management System using Tkinter and MySQL, enabling real-time product management and order processing through a GUI interface.</p>
               </div>
             </div>
           </div>
@@ -512,23 +507,23 @@
 		<div class="row d-flex justify-content-center">  
 			<div class="col-md-4 d-flex ftco-animate">
 				<div class="blog-entry justify-content-end">
-				<a href="https://github.com/rishabhnmishra/sales_forecasting/tree/main" class="block-20 zoom-effect" style="background-image: url('images/proj_4.jpg');">
+				<a href="https://github.com/akshaysharma2703/ECG-ANALYSIS-USING-ML.git" class="block-20 zoom-effect" style="background-image: url('images/proj_4.jpg');">
 				</a>
 				<div class="text mt-3 float-right d-block">
   
-				  <h3 class="heading"><a href="https://github.com/rishabhnmishra/sales_forecasting/tree/main">Sales Forecast- Time Series Forecasting</a></h3>
-				  <p>Used multiple machine learning models to forecast sales (retail store) and performed time series analysis.</p>
+				  <h3 class="heading"><a href="https://github.com/akshaysharma2703/ECG-ANALYSIS-USING-ML.git">ECG Analysis Using ML</a></h3>
+				  <p>Developed an ECG classification model using machine learning applied data cleaning and model training in Python.</p>
 				</div>
 			  </div>
 			</div>
 			<div class="col-md-4 d-flex ftco-animate">
 				<div class="blog-entry justify-content-end">
-				<a href="https://github.com/rishabhnmishra/customer_segmentation/blob/main/Customer_Segmentation-final.ipynb" class="block-20 zoom-effect" style="background-image: url('images/proj_5.jpg');">
+				<a href="https://github.com/akshaysharma2703/Frontend-Feista.git" class="block-20 zoom-effect" style="background-image: url('images/proj_5.jpg');">
 				</a>
 				<div class="text mt-3 float-right d-block">
   
-				  <h3 class="heading"><a href="https://github.com/rishabhnmishra/customer_segmentation/blob/main/Customer_Segmentation-final.ipynb">Customer Segmentation using clustering model</a></h3>
-				  <p>Developed a ML model to give various recommendations of financial products &amp; services on target customer groups.</p>
+				  <h3 class="heading"><a href="https://github.com/akshaysharma2703/Frontend-Feista.git">Frontend-Feista.</a></h3>
+				  <p>Developed a responsive frontend website using HTML, CSS, and JavaScript with modern UI components.</p>
 				</div>
 			  </div>
 			</div>
@@ -576,6 +571,17 @@
 	            <p>Somewhere in India</p>
 	          </div>
           </div>
+
+		  <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+			<div class="align-self-stretch box p-4 text-center">
+				<div class="icon d-flex align-items-center justify-content-center">
+					<span class="icon-phone2"></span>
+				</div>
+				<h3 class="mb-4">Contact Number</h3>
+			  <p><a href="tel://0101010101">+91 8826******</a></p>
+			</div>
+		</div>
+
           <div class="col-md-6 col-lg-3 d-flex ftco-animate">
           	<div class="align-self-stretch box p-4 text-center">
           		<div class="icon d-flex align-items-center justify-content-center">
@@ -590,8 +596,8 @@
           		<div class="icon d-flex align-items-center justify-content-center">
           			<span class="icon-globe"></span>
           		</div>
-          		<h3 class="mb-4">Download Resume</h3>
-	            <p><a href="https://drive.google.com/file/d/1XUQU7qwSvbfRYlOHdOCJPkiHKuLeRoeq/view?usp=sharing">resumelink</a></p>
+          		<h3 class="mb-4">Linktree</h3>
+	            <p><a href="https://linktr.ee/Ak_Sharma">Linktree</a></p>
 	          </div>
           </div>
 
