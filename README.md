@@ -1,7 +1,7 @@
 # 📊 Portfolio
 
 Welcome to my portfolio repository.  
-This repository showcases my projects in **Data Analytics, Data Science, and Machine Learning**, focusing on turning raw data into meaningful insights through analysis, visualization, and modeling.
+This repository showcases my projects in **Data Analytics, Data Science, and Product Analyst/Management**, focusing on turning raw data into meaningful insights through analysis, visualization, and modeling.
 
 ---
 
@@ -27,7 +27,7 @@ Below are some of the projects included in this portfolio:
 - Performed data cleaning and exploratory analysis using Python  
 - Created visualizations to identify peak hours and usage behavior  
 
-### ❤️ ECG Signal Analysis (Academic Project)
+### ❤️ ECG-based Heart Abnormality Detection using ML (Academic Project)
 - Worked on ECG signal data for pattern analysis  
 - Applied signal processing and machine learning fundamentals  
 - Focused on extracting meaningful features from biomedical data  
